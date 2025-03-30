@@ -1,2 +1,1 @@
-# Komp.com
-Website
+nsbhsjxbsb
