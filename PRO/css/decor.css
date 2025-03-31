@@ -1,0 +1,93 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: large;
+}
+
+
+
+nav {
+    /*background-image: url("../Res/Laptop.jpg");*/
+    background-color: #333;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    text-align: left;
+    /*background-color: gray;*/
+    padding: 10px;
+    margin: 0;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensures it's above other content */
+}
+
+
+nav a {
+    color: white;
+    padding: 10px;
+    margin: 0 20px;
+    text-decoration: none;
+    border-radius: 0 0 10px 10px;
+    transition: background-color 1.5s ease;
+}
+nav a:hover {
+    background-color: rgb(207, 207, 207); 
+}
+
+
+/*#section1 {
+    width: 100%;
+    background-color: antiquewhite;
+
+
+    color: rgb(255, 125, 125);
+    text-align: left;
+}*/
+
+#section1 {
+    background-image: url("../Res/Laptop.jpg");
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 30vh;
+    max-height: 3px;
+    padding: 150px 50px;
+    margin: 0;
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+
+
+
+#section2 {
+    background-color: rgb(220, 220, 220);
+    padding: 10px 10px;
+    margin: 20px 50px;
+    border-radius: 5px;
+    
+}
+
+
+#section3 {
+    background-color: rgb(220, 220, 220);
+    padding: 10px 10px;
+    margin: 20px 50px;
+    border-radius: 5px;
+    
+}
+
+
+#section4 {
+    background-color: rgb(220, 220, 220);
+    padding: 10px 10px;
+    margin: 20px 50px;
+    border-radius: 5px;
+    
+}
